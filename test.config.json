@@ -1,0 +1,22 @@
+{
+  "catchmentAreaHectares": 0.15,
+  "rainInflowMinutes": 30,
+  "maxDryRainAbsorptionMm": 5
+}
+
+{
+  "dispenserConfig": {
+    "catchmentAreaHectares": 0.2,
+    "disableDose": false,
+    "doseRate": 0.0001870207593042828,
+    "flowingRainMmPerHour": 1,
+    "maxDryAfterDays": 8,
+    "maxDryRainAbsorptionMm": 10,
+    "doseType": 1, // 1-Auto, 2-Hybrid, 3-Manual
+    "manualDoseL": 0.2,// ManualDose 0.2
+    "interval": 5, // interval in min while dose will be release 
+    "endDate": null, // no of days hybrid mode active
+    "startTime": null, // time in which hybrid dose should active 
+    "endTime": null, // time in which hybrid dose should active 
+  }
+}
